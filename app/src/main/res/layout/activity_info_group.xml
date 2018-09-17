@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_gradient"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout3">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_form_rounded"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/groupnameeeeeeee"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:drawableLeft="@mipmap/group2_launcher"
+                android:hint="@string/Group_name"
+                android:padding="5dp"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg_button_rounded"
+            android:onClick="creat_group"
+            android:text="@string/Submit"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/imgUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/design2"
+        android:layout_above="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="9dp"
+            android:adjustViewBounds="true"
+            android:background="@color/colorPrimary"
+            android:padding="3dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/scarlett" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView6"
+            android:layout_alignEnd="@+id/imageView6"
+            android:layout_alignRight="@+id/imageView6"
+            android:background="@drawable/buttonstyle"
+            app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

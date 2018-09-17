@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="max.com.chatt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/chaticon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Home" />
+        <activity
+            android:name=".Friendes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Chats" />
+        <activity android:name=".Profile" />
+        <activity
+            android:name=".Message_List"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".server" />
+        <activity android:name=".Search_Friends" />
+        <activity android:name=".Tic_Tac_Toe" />
+        <activity android:name=".Start_game" />
+        <activity android:name=".viewPager" />
+        <activity android:name=".SwipAdapter" />
+        <activity
+            android:name=".Pop"
+            android:theme="@style/AppTheme.custom" />
+        <activity android:name=".Add_for_group" />
+        <activity android:name=".Info_group" />
+
+        <activity android:name=".Pop_image" android:theme="@style/AppTheme.custom"></activity>
+    </application>
+
+</manifest>

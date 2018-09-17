@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Ze Chat</string>
+    <string name="FirstName">FirstName</string>
+    <string name="LastName">LastName</string>
+    <string name="Enter_username">Enter username</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Sign_up">Sign up</string>
+    <string name="Login">Login</string>
+
+    <string name="SEND">SEND</string>
+    <string name="Enter_message">Enter message</string>
+    <string name="Games">Games</string>
+    <string name="Block">Block</string>
+    <string name="Clear_Masseges">Clear Masseges</string>
+    <string name="Loge_out">Loge out</string>
+    <string name="Creat_group">Creat group</string>
+
+    <string name="Un_Block">Un Block</string>
+
+    <string name="click_to_start">click to start</string>
+    <string name="Friends">Friends</string>
+    <string name="Profile">Profile</string>
+    <string name="About_group">About group</string>
+    <string name="Submit">Submit</string>
+    <string name="Group_name">Group name</string>
+    <string name="Delet_For_Me">Delet For Me</string>
+    <string name="Delet_For_EveryOne">Delet For EveryOne</string>
+    <string name="Search_Friend">Search Friend</string>
+    <string name="Start_Game">Start Game</string>
+
+
+
+
+</resources>

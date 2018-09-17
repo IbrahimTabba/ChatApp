@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#000108</color>
+    <color name="colorPrimary">#b21331</color>
+    <color name="colorAccent">#000108</color>
+    <color name="startblue">#3F51B5</color>
+    <color name="endblue">#303F9F</color>
+    <color name="graylight">#a6a6a6</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="bg_gradient_start">#b21331</color>
+    <color name="fab">#4bb6ef</color>
+    <color name="bg_gradient_end">#820d2a</color>
+    <color name="bg_button_login">#380813</color>
+</resources>

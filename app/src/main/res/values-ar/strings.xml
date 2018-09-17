@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zezz</string>
+    <string name="Enter_username">"اسم المستخدم"</string>
+    <string name="FirstName">"الاسم"</string>
+    <string name="LastName">الكنية</string>
+    <string name="Login">تسجيل الدخول</string>
+    <string name="Password">كلمة المرور</string>
+    <string name="Sign_up">انشاء حساب</string>
+    <string name="Username">اسم المستخدم</string>
+    <string name="Block">حظر</string>
+    <string name="Clear_Masseges">حذف الرسائل</string>
+    <string name="Creat_group">انشاء مجموعة</string>
+    <string name="Enter_message">ادخل رسالة</string>
+    <string name="Games">ألعاب</string>
+    <string name="Loge_out">تسجيل الخروج</string>
+    <string name="SEND">ارسال</string>
+    <string name="Un_Block">الغاء الحظر</string>
+    <string name="click_to_start">اضغط لبدأ اللعبة</string>
+    <string name="Profile">الصفحة الشحصية</string>
+    <string name="Friends">الاصدقاء</string>
+    <string name="Submit">ارسال الطلب</string>
+    <string name="Group_name">اسم المجموعة</string>
+    <string name="About_group">حول المجموعة</string>
+    <string name="Delet_For_Me">حذف عندي</string>
+    <string name="Delet_For_EveryOne">حذف عند الكل</string>
+</resources>
